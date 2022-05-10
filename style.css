@@ -312,8 +312,8 @@
 
 
 
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) 
+{}
     .header {
         background-color: #21aabc;
         display: flex;
@@ -322,6 +322,32 @@
         width: 100%
         
     }
+    .modeloTarjeta {
+
+        background-image: linear-gradient(to left,#21aabc ,pink);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        background-repeat: no-repeat;
+          margin: 96px;  
+          gap: 20px;
+          text-align: justify;
+      }
+      .modeloImagen{
+          display: flex;
+          flex-direction: row;    
+          align-self: flex-start;
+          max-width: 300px;
+          max-height: 300px;
+          border-radius: 10px;
+      }
+      .modeloLista{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between; 
+          overflow: hidden;
 
 }   
 @media screen and (max-width: 768px)
@@ -374,9 +400,9 @@
  
 .modeloTarjeta {
 
-    background-image: url(../progr/imagenes/difuminado.svg);
+    background-image: linear-gradient(to bottom, #21aabc,pink );
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
@@ -405,7 +431,7 @@
     
 .modeloTarjeta {
 
-    background-image: url(../progr/imagenes/difuminado.svg);
+    background-image: linear-gradient(to bottom, #21aabc,pink );
     display: flex;
     flex-direction: column;
     justify-content: space-between;
