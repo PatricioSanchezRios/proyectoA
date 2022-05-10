@@ -358,7 +358,7 @@
     font-style: italic;
     font-weight: bold;
     margin-left: 150px;
-    margin-right: 350px;
+    margin-right: 150px;
 }   
 
 .parrafo{
@@ -370,8 +370,7 @@
     width: 40%; 
     min-height: 100px;
     margin-top: 30px;
-    padding-left: 150px;
-    padding-right: 96px;
+    transform: translateX(150px);
     font-size: 15px;
 }
 
