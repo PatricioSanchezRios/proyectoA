@@ -129,9 +129,6 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
-  border-style: solid;
-  border-color: #21aabc;
-  border-radius: 10px;
   background-repeat: no-repeat;
     margin: 96px;  
     gap: 20px;
@@ -454,4 +451,18 @@
     position: relative;
     
 }
+}
+
+@media screen and ( max-width: 403px)
+{
+    .modeloImagen{
+        max-height: 100px ;
+        max-width: 100px ;
+    }
+    .grid{
+        padding: 0;
+        margin: bottom 10px;
+        transform: translateY(-50px);
+        flex-direction: column
+    }
 }
