@@ -245,9 +245,10 @@
 
 .mainUs{
     background-color: #fab7f1;
-    display: flex;
-    margin-left: 96px;
-    margin-right: 96px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .imagenPersonal{
     width: 600px;
@@ -348,8 +349,14 @@
           flex-direction: column;
           justify-content: space-between; 
           overflow: hidden;
-
-}   
+      }  
+          
+    .mainUs{
+    background-color: #fab7f1;
+    display: flex;
+    flex-direction:column;
+}
+   
 @media screen and (max-width: 768px)
 {
     
@@ -478,12 +485,28 @@
     
 }
 }
+@media screen and ( max-width: 480px)
+{
+    .imagenPersonal{
+        
+        height: 100%;
+        width: 100%;
+
+    }
+}
 
 @media screen and ( max-width: 403px)
 {
     .modeloImagen{
         max-height: 100px ;
         max-width: 100px ;
+    }
+    
+    .imagenPersonal{
+        
+        height: 100%;
+        width: 100%;
+
     }
     .grid{
         padding: 0;
