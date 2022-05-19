@@ -1,0 +1,222 @@
+
+@font-face {
+    font-family:waterbrush ;
+    src: url(WaterBrush-Regular.ttf);
+}
+
+@font-face {
+    font-family: alfa;
+    src: url(AbrilFatface-Regular.ttf);
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) 
+{}
+    .header {
+        background-color: #21aabc;
+        display: flex;
+        flex-direction: column;    
+        justify-content: flex-end;
+        width: 100%
+        
+    }
+    .modeloTarjeta {
+
+        background-image: linear-gradient(to left,#21aabc ,pink);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        background-repeat: no-repeat;
+          margin: 96px;  
+          gap: 20px;
+          text-align: justify;
+      }
+      .modeloImagen{
+          display: flex;
+          flex-direction: row;    
+          align-self: flex-start;
+          max-width: 300px;
+          max-height: 300px;
+          border-radius: 10px;
+      }
+      .modeloLista{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between; 
+          overflow: hidden;
+      }  
+          
+    .mainUs{
+    background-color: #fab7f1;
+    display: flex;
+    flex-direction:column;
+}
+   
+@media screen and (max-width: 768px)
+{
+    
+.principal{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 35px;
+    border: 5px solid white;
+    box-shadow: 0 0 50px #21aabc ;  
+    font-size: 30px;
+    text-shadow: 0 0 50px #21aabc ,0 0 50px #21aabc,0 0 50px #21aabc;
+    font-weight: bold;
+}
+
+.subtitulo1{
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 30px;
+    color: #21aabc;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 150px;
+    margin-right: 150px;
+}   
+
+.parrafo{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%; 
+    min-height: 100px;
+    margin-top: 30px;
+    transform: translateX(150px);
+    font-size: 15px;
+}
+
+ 
+.modeloTarjeta {
+
+    background-image: linear-gradient(to bottom, #21aabc,pink );
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    border-style: solid;
+    border-color: #21aabc;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+      margin: 96px;  
+      gap: 10px;
+      text-align: center;
+  }
+.grid {
+    
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        grid-template-rows: 50% 50% 50%;
+        gap: 7vw;
+        background-color: #fab7f1;
+        align-items: row;
+        justify-content: flex-end;
+        margin: 0%;           
+    }
+}
+@media screen and ( max-width: 680px)
+{
+    
+.modeloTarjeta {
+
+    background-image: linear-gradient(to bottom, #21aabc,pink );
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    border-style: solid;
+    border-color: #21aabc;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+    .modeloImagen{
+        display: flex;
+        flex-direction: row;    
+        align-self: center;
+        max-width: 200px;
+        max-height: 200px;
+        border-radius: 10px;
+    }
+
+
+.grid {
+    
+    display: grid;
+    grid-template-columns: 40px 40px 40px;
+    grid-template-rows: 100px ;
+    gap: 100px;
+    background-color: #fab7f1;
+    align-items: row;
+    justify-content: flex-start;
+    margin: 0%;           
+}
+
+.caja{
+    
+    width: 130px;
+    height: 130px; ;
+    border: solid black ;
+    border-radius: 20px; 
+    text-align: center;
+    align-self: stretch;
+    justify-self: stretch;
+    position: relative;
+    
+}
+}
+@media screen and ( max-width: 480px)
+{
+    .imagenPersonal{
+        
+        height: 100%;
+        width: 100%;
+
+    }
+}
+
+@media screen and ( max-width: 403px)
+{
+    .modeloImagen{
+        max-height: 100px ;
+        max-width: 100px ;
+    }
+    
+    .imagenPersonal{
+        
+        height: 100%;
+        width: 100%;
+
+    }
+    .grid{
+        padding: 0;
+        margin: bottom 10px;
+        transform: translateY(-50px);
+        flex-direction: column
+    }
+}
