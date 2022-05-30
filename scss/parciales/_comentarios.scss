@@ -2,8 +2,6 @@
 .sectionComentarios{
     
     background-color: #fab7f1;
-    margin-left: 96px;
-    margin-right: 96px;
     margin-bottom: 0px;
     height: 600px;
 }
@@ -35,10 +33,11 @@
     padding-top: 50px;
     min-width: 100px;
     min-height: 100px;
+    padding-right: 50%;
 }
 .botonEnviar{
     display: flex;
-    align-self: center;
+   position: relative; right: 5%;
     padding: 10px;
 }
 .imagenSeparador{
