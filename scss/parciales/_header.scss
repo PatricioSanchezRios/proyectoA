@@ -3,10 +3,14 @@
     padding: 0;
 }
 
-
+@mixin  color{
+    background-color: #21aabc;
+    
+}
 
 .header{
-    background-color: #21aabc;
+    @include color;
+
     display: flex;
     flex-direction: row;    
     justify-content: flex-end;
@@ -15,7 +19,7 @@
     
 
 .menu{
-    background-color: #21aabc;
+    @include color;
     display: flex;
     flex-direction: row;
     list-style: none;
