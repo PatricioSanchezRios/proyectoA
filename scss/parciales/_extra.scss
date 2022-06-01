@@ -65,6 +65,11 @@
 @media screen and (max-width: 768px)
 {
     
+.principalComentarios, .tituloAyuda {
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 30px;
+  }
 .principal{
     color: #ffffff;
     display: flex;
@@ -136,6 +141,10 @@
         align-items: row;
         justify-content: flex-end;
         margin: 0%;           
+    }
+    .tarjetaComentarios {
+    
+        display: none;
     }
 }
 @media screen and ( max-width: 680px)
